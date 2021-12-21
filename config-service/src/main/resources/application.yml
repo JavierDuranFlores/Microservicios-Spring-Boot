@@ -4,10 +4,10 @@ spring:
     config:
       server:
         git:  
-          url: https://github.com/JavierDuranFlores/Microservicios-Spring-Boot.git
-          searchPath: config-data
-          username: JavierDuranFlores
-          password: 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
+          uri: https://github.com/JavierDuranFlores/Microservicios-Spring-Boot.git
+          searchPaths: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
   security:
     user:
       name: root
