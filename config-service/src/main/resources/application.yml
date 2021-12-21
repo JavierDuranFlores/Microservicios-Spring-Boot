@@ -1,1 +1,14 @@
 
+spring:
+  cloud:
+    config:
+      server:
+        git:  
+          url: https://github.com/JavierDuranFlores/Microservicios-Spring-Boot.git
+          searchPath: config-data
+          username: JavierDuranFlores
+          password: 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
+  security:
+    user:
+      name: root
+      password: Duran2001
