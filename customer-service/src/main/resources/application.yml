@@ -1,5 +1,4 @@
 
-
 spring:
   jpa:
     defer-datasource-initialization: true
@@ -10,3 +9,8 @@ spring:
       uri: http://localhost:8080
       username: root
       password: Duran2001
+      
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
